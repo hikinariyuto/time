@@ -1,0 +1,62 @@
+.atte{
+    font-size: 25px;
+}
+
+.top_login{
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.tytle {
+    font-size: 20px;
+}
+
+.email_form {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#email_input {
+    width: 30%;
+    height: 30px;
+    color: gray;
+}
+
+.password_form {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#password_input {
+    width: 30%;
+    height: 30px;
+    color: gray;
+}
+
+.login_button {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.login_input {
+    width: 30%;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.not_have_account {
+    margin: 10px;
+    padding:px;
+    text-align: center;
+}
+
+.register_link {
+    color: blue;
+    text-decoration: none;
+}
