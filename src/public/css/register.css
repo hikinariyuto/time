@@ -1,0 +1,91 @@
+.head {
+    padding: 20px;
+}
+
+.atte {
+    font-size: 25px;
+}
+
+.top_register {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tytle {
+    font-size: 20px;
+}
+
+.name_form {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#name_input {
+    width: 30%;
+    height: 30px;
+    color: gray;
+}
+
+.email_form {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#email_input {
+    width: 30%;
+    height: 30px;
+    color: gray;
+}
+
+.password_form {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#password_input {
+    width: 30%;
+    height: 30px;
+    color: gray;
+}
+
+.password2_form {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#password2_input {
+    width: 30%;
+    height: 30px;
+    color: gray;
+}
+
+.register_button {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.register_input {
+    width: 30%;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.have_account {
+    margin: 10px;
+    padding: px;
+    text-align: center;
+}
+
+.login_link {
+    color: blue;
+    text-decoration: none;
+}
