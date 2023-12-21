@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TimeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,13 +14,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/', [TimeController::class, 'index']);
+
+Route::post('/time/timein',[TimeController::class,'timein']);
+Route::post('/time/timeout',[TimeController::class,'timeout']);
+
+Route::post('/time/breakin',[TimeController::class,'breakin']);
+Route::post('/time/breakout',[TimeController::class,'breakout']);
+
+Route::get('/attendance', [TimeController::class, 'attendance']);
 
 

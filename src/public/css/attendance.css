@@ -1,0 +1,107 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+}
+
+.atte {
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 15px;
+    margin-right: 10%;
+}
+
+li {
+    margin: 20px;
+}
+
+.main {
+    background-color: whitesmoke;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.date {
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin: 30px auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding: 20px;
+    margin: 0px auto;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-rows: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding: 20px;
+    margin: 0px auto;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-rows: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.name{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.start{
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.finish{
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+}
+
+.rest{
+    grid-column: 4/5;
+    grid-row: 1/2;
+
+}
+
+.total{
+    grid-column: 5/6;
+    grid-row: 1/2;
+background: pink;
+}
+
+
